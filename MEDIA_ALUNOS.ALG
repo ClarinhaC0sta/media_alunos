@@ -15,7 +15,15 @@ escreval ("informe a nota 4")
 leia (n4)
 
 med:=(n1+n2+n3+n4)/4
-escreval ("a media final do aluno é", med)
+escreval ("a media final do aluno Ã©", med)
+
+se (med<5) entao
+    escreval escreval ("aluno reprovado")
+fimse
+
+se (med>5) entao
+    escreval ("aluno aprovado")
+fimse
 
 
 Fimalgoritmo
