@@ -18,7 +18,7 @@ med:=(n1+n2+n3+n4)/4
 escreval ("a media final do aluno é", med)
 
 se (med<5) entao
-    escreval escreval ("aluno reprovado")
+    escreval ("aluno reprovado")
 fimse
 
 se (med>5) entao
